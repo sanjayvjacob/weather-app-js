@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-color: #4793AF;
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.weatherForm{
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cityInput{
+  width: 200px;
+  border-radius: 5px;
+}
+
+button{
+background-color: #8B322C ;
+width: 100px;
+height: 30px;
+padding: 5px;
+font-weight: bold;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover{
+  background-color: #DD5746;
+}
+
+
+.card{
+  background-color: #FFC470;
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 3px 2px 2px black;
+}
+
+.cityName{
+  font-size: 32px;
+}
+
+.humidity{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.humidityDisplay{
+  font-size: 20px;
+}
+
+
+.desDisplay{
+  font-size: 20px;
+  font-style: italic ;
+}
+
+.weatherEmoji{
+  font-size: 50px;
+  border: 20px;
+  margin: 0;
+}
+
+.errorMsg{
+  font-size: 20px;
+}
+
